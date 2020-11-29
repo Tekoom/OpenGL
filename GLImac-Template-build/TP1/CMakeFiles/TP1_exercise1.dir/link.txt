@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/TP1_exercise1.dir/exercise1.cpp.o  -o TP1_exercise1  ../glimac/libglimac.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread /usr/lib/x86_64-linux-gnu/libGL.so.1 -lGLEW 
