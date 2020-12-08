@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/erwi/Documents/GLImac-Template/TP2/triangle_particule.cpp" "/home/erwi/Documents/GLImac-Template-build/TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/TP2/triangle_particule.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL"
-  "/home/erwi/Documents/GLImac-Template/glimac/include"
-  "/home/erwi/Documents/GLImac-Template/third-party/include"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/include"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/third-party/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
+  "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

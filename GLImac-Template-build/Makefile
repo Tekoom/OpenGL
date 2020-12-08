@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwi/Documents/GLImac-Template
+CMAKE_SOURCE_DIR = /home/erwann/Documents/OpenGL/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwi/Documents/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/erwann/Documents/OpenGL/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles /home/erwi/Documents/GLImac-Template-build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -423,6 +423,19 @@ TP3_lune/fast:
 .PHONY : TP3_lune/fast
 
 #=============================================================================
+# Target rules for targets named TP4_trackball
+
+# Build rule for target.
+TP4_trackball: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP4_trackball
+.PHONY : TP4_trackball
+
+# fast build rule for target.
+TP4_trackball/fast:
+	$(MAKE) -f TP4/CMakeFiles/TP4_trackball.dir/build.make TP4/CMakeFiles/TP4_trackball.dir/build
+.PHONY : TP4_trackball/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -467,6 +480,7 @@ help:
 	@echo "... TP3_terre"
 	@echo "... TP3_multi_texturing"
 	@echo "... TP3_lune"
+	@echo "... TP4_trackball"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help
 

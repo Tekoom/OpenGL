@@ -1,10 +1,9 @@
 #pragma once
-
-namespace glimac;
+#include <glimac/glm.hpp>
 
 class TrackballCamera
 {
-  private:
+  public:
     float m_fDistance;
     float m_fAngleX;
     float m_fAngleY;
@@ -20,4 +19,4 @@ class TrackballCamera
   void rotateLeft(float degrees);
   void rotateUp(float degrees);
   glm::mat4 getViewMatrix() const;
-}
+};

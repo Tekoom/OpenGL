@@ -4,22 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/erwi/Documents/GLImac-Template/glimac/src/Cone.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.o"
-  "/home/erwi/Documents/GLImac-Template/glimac/src/Geometry.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o"
-  "/home/erwi/Documents/GLImac-Template/glimac/src/Image.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Image.cpp.o"
-  "/home/erwi/Documents/GLImac-Template/glimac/src/Program.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"
-  "/home/erwi/Documents/GLImac-Template/glimac/src/SDLWindowManager.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o"
-  "/home/erwi/Documents/GLImac-Template/glimac/src/Shader.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o"
-  "/home/erwi/Documents/GLImac-Template/glimac/src/Sphere.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o"
-  "/home/erwi/Documents/GLImac-Template/glimac/src/tiny_obj_loader.cpp" "/home/erwi/Documents/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/Cone.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Cone.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/Geometry.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/Image.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Image.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/Program.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/SDLWindowManager.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/Shader.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/Sphere.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/TrackballCamera.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/TrackballCamera.cpp.o"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/tiny_obj_loader.cpp" "/home/erwann/Documents/OpenGL/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL"
-  "/home/erwi/Documents/GLImac-Template/glimac/include"
-  "/home/erwi/Documents/GLImac-Template/third-party/include"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/include"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/third-party/include"
   )
 
 # Targets to which this target links.

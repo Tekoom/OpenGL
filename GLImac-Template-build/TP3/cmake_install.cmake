@@ -1,4 +1,4 @@
-# Install script for directory: /home/erwi/Documents/GLImac-Template/TP3
+# Install script for directory: /home/erwann/Documents/OpenGL/GLImac-Template/TP3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

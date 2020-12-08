@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwi/Documents/GLImac-Template
+CMAKE_SOURCE_DIR = /home/erwann/Documents/OpenGL/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwi/Documents/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/erwann/Documents/OpenGL/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/erwi/Documents/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles /home/erwi/Documents/GLImac-Template-build/TP2/CMakeFiles/progress.marks
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 0
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles /home/erwann/Documents/OpenGL/GLImac-Template-build/TP2/CMakeFiles/progress.marks
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/clean
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/erwi/Documents/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_triangle_transformation.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_transformation.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_transformation.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_triangle_transformation.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ TP2_triangle_transformation: TP2/CMakeFiles/TP2_triangle_transformation.dir/rule
 
 # fast build rule for target.
 TP2_triangle_transformation/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/build
 .PHONY : TP2_triangle_transformation/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ TP2_triangle_tournant_matrice_cpu: TP2/CMakeFiles/TP2_triangle_tournant_matrice_
 
 # fast build rule for target.
 TP2_triangle_tournant_matrice_cpu/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build
 .PHONY : TP2_triangle_tournant_matrice_cpu/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_triangle_particule.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_particule.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_particule.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_triangle_particule.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ TP2_triangle_particule: TP2/CMakeFiles/TP2_triangle_particule.dir/rule
 
 # fast build rule for target.
 TP2_triangle_particule/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/build
 .PHONY : TP2_triangle_particule/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_templateDuku.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_templateDuku.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_templateDuku.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_templateDuku.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ TP2_templateDuku: TP2/CMakeFiles/TP2_templateDuku.dir/rule
 
 # fast build rule for target.
 TP2_templateDuku/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/build
 .PHONY : TP2_templateDuku/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_textures.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_textures.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_textures.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_textures.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ TP2_textures: TP2/CMakeFiles/TP2_textures.dir/rule
 
 # fast build rule for target.
 TP2_textures/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/build
 .PHONY : TP2_textures/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_mandelbrot.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_mandelbrot.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_mandelbrot.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_mandelbrot.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ TP2_mandelbrot: TP2/CMakeFiles/TP2_mandelbrot.dir/rule
 
 # fast build rule for target.
 TP2_mandelbrot/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/build
 .PHONY : TP2_mandelbrot/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_plusieurs_triangles.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_plusieurs_triangles.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_plusieurs_triangles.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_plusieurs_triangles.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ TP2_plusieurs_triangles: TP2/CMakeFiles/TP2_plusieurs_triangles.dir/rule
 
 # fast build rule for target.
 TP2_plusieurs_triangles/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build
 .PHONY : TP2_plusieurs_triangles/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_exo_2.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo_2.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo_2.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo_2.dir/rule
 
 # Convenience name for target.
@@ -227,12 +227,12 @@ TP2_exo_2: TP2/CMakeFiles/TP2_exo_2.dir/rule
 
 # fast build rule for target.
 TP2_exo_2/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/build
 .PHONY : TP2_exo_2/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_exo_1.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo_1.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo_1.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_exo_1.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ TP2_exo_1: TP2/CMakeFiles/TP2_exo_1.dir/rule
 
 # fast build rule for target.
 TP2_exo_1/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/build
 .PHONY : TP2_exo_1/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_triangle_tournant.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_tournant.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_tournant.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_triangle_tournant.dir/rule
 
 # Convenience name for target.
@@ -257,12 +257,12 @@ TP2_triangle_tournant: TP2/CMakeFiles/TP2_triangle_tournant.dir/rule
 
 # fast build rule for target.
 TP2_triangle_tournant/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/build
 .PHONY : TP2_triangle_tournant/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -272,7 +272,7 @@ TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 
 # fast build rule for target.
 TP2_SDLtemplate/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
 .PHONY : TP2_SDLtemplate/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
@@ -281,7 +281,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -290,7 +290,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -299,7 +299,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 exo_1.o: exo_1.cpp.o
@@ -308,7 +308,7 @@ exo_1.o: exo_1.cpp.o
 
 # target to build an object file
 exo_1.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/exo_1.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/exo_1.cpp.o
 .PHONY : exo_1.cpp.o
 
 exo_1.i: exo_1.cpp.i
@@ -317,7 +317,7 @@ exo_1.i: exo_1.cpp.i
 
 # target to preprocess a source file
 exo_1.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/exo_1.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/exo_1.cpp.i
 .PHONY : exo_1.cpp.i
 
 exo_1.s: exo_1.cpp.s
@@ -326,7 +326,7 @@ exo_1.s: exo_1.cpp.s
 
 # target to generate assembly for a file
 exo_1.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/exo_1.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_1.dir/build.make TP2/CMakeFiles/TP2_exo_1.dir/exo_1.cpp.s
 .PHONY : exo_1.cpp.s
 
 exo_2.o: exo_2.cpp.o
@@ -335,7 +335,7 @@ exo_2.o: exo_2.cpp.o
 
 # target to build an object file
 exo_2.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/exo_2.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/exo_2.cpp.o
 .PHONY : exo_2.cpp.o
 
 exo_2.i: exo_2.cpp.i
@@ -344,7 +344,7 @@ exo_2.i: exo_2.cpp.i
 
 # target to preprocess a source file
 exo_2.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/exo_2.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/exo_2.cpp.i
 .PHONY : exo_2.cpp.i
 
 exo_2.s: exo_2.cpp.s
@@ -353,7 +353,7 @@ exo_2.s: exo_2.cpp.s
 
 # target to generate assembly for a file
 exo_2.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/exo_2.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_exo_2.dir/build.make TP2/CMakeFiles/TP2_exo_2.dir/exo_2.cpp.s
 .PHONY : exo_2.cpp.s
 
 mandelbrot.o: mandelbrot.cpp.o
@@ -362,7 +362,7 @@ mandelbrot.o: mandelbrot.cpp.o
 
 # target to build an object file
 mandelbrot.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.o
 .PHONY : mandelbrot.cpp.o
 
 mandelbrot.i: mandelbrot.cpp.i
@@ -371,7 +371,7 @@ mandelbrot.i: mandelbrot.cpp.i
 
 # target to preprocess a source file
 mandelbrot.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.i
 .PHONY : mandelbrot.cpp.i
 
 mandelbrot.s: mandelbrot.cpp.s
@@ -380,7 +380,7 @@ mandelbrot.s: mandelbrot.cpp.s
 
 # target to generate assembly for a file
 mandelbrot.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.s
 .PHONY : mandelbrot.cpp.s
 
 plusieurs_triangles.o: plusieurs_triangles.cpp.o
@@ -389,7 +389,7 @@ plusieurs_triangles.o: plusieurs_triangles.cpp.o
 
 # target to build an object file
 plusieurs_triangles.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/plusieurs_triangles.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/plusieurs_triangles.cpp.o
 .PHONY : plusieurs_triangles.cpp.o
 
 plusieurs_triangles.i: plusieurs_triangles.cpp.i
@@ -398,7 +398,7 @@ plusieurs_triangles.i: plusieurs_triangles.cpp.i
 
 # target to preprocess a source file
 plusieurs_triangles.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/plusieurs_triangles.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/plusieurs_triangles.cpp.i
 .PHONY : plusieurs_triangles.cpp.i
 
 plusieurs_triangles.s: plusieurs_triangles.cpp.s
@@ -407,7 +407,7 @@ plusieurs_triangles.s: plusieurs_triangles.cpp.s
 
 # target to generate assembly for a file
 plusieurs_triangles.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/plusieurs_triangles.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_plusieurs_triangles.dir/build.make TP2/CMakeFiles/TP2_plusieurs_triangles.dir/plusieurs_triangles.cpp.s
 .PHONY : plusieurs_triangles.cpp.s
 
 templateDuku.o: templateDuku.cpp.o
@@ -416,7 +416,7 @@ templateDuku.o: templateDuku.cpp.o
 
 # target to build an object file
 templateDuku.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/templateDuku.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/templateDuku.cpp.o
 .PHONY : templateDuku.cpp.o
 
 templateDuku.i: templateDuku.cpp.i
@@ -425,7 +425,7 @@ templateDuku.i: templateDuku.cpp.i
 
 # target to preprocess a source file
 templateDuku.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/templateDuku.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/templateDuku.cpp.i
 .PHONY : templateDuku.cpp.i
 
 templateDuku.s: templateDuku.cpp.s
@@ -434,7 +434,7 @@ templateDuku.s: templateDuku.cpp.s
 
 # target to generate assembly for a file
 templateDuku.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/templateDuku.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_templateDuku.dir/build.make TP2/CMakeFiles/TP2_templateDuku.dir/templateDuku.cpp.s
 .PHONY : templateDuku.cpp.s
 
 textures.o: textures.cpp.o
@@ -443,7 +443,7 @@ textures.o: textures.cpp.o
 
 # target to build an object file
 textures.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/textures.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/textures.cpp.o
 .PHONY : textures.cpp.o
 
 textures.i: textures.cpp.i
@@ -452,7 +452,7 @@ textures.i: textures.cpp.i
 
 # target to preprocess a source file
 textures.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/textures.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/textures.cpp.i
 .PHONY : textures.cpp.i
 
 textures.s: textures.cpp.s
@@ -461,7 +461,7 @@ textures.s: textures.cpp.s
 
 # target to generate assembly for a file
 textures.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/textures.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_textures.dir/build.make TP2/CMakeFiles/TP2_textures.dir/textures.cpp.s
 .PHONY : textures.cpp.s
 
 triangle_particule.o: triangle_particule.cpp.o
@@ -470,7 +470,7 @@ triangle_particule.o: triangle_particule.cpp.o
 
 # target to build an object file
 triangle_particule.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.o
 .PHONY : triangle_particule.cpp.o
 
 triangle_particule.i: triangle_particule.cpp.i
@@ -479,7 +479,7 @@ triangle_particule.i: triangle_particule.cpp.i
 
 # target to preprocess a source file
 triangle_particule.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.i
 .PHONY : triangle_particule.cpp.i
 
 triangle_particule.s: triangle_particule.cpp.s
@@ -488,7 +488,7 @@ triangle_particule.s: triangle_particule.cpp.s
 
 # target to generate assembly for a file
 triangle_particule.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_particule.dir/build.make TP2/CMakeFiles/TP2_triangle_particule.dir/triangle_particule.cpp.s
 .PHONY : triangle_particule.cpp.s
 
 triangle_tournant.o: triangle_tournant.cpp.o
@@ -497,7 +497,7 @@ triangle_tournant.o: triangle_tournant.cpp.o
 
 # target to build an object file
 triangle_tournant.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/triangle_tournant.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/triangle_tournant.cpp.o
 .PHONY : triangle_tournant.cpp.o
 
 triangle_tournant.i: triangle_tournant.cpp.i
@@ -506,7 +506,7 @@ triangle_tournant.i: triangle_tournant.cpp.i
 
 # target to preprocess a source file
 triangle_tournant.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/triangle_tournant.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/triangle_tournant.cpp.i
 .PHONY : triangle_tournant.cpp.i
 
 triangle_tournant.s: triangle_tournant.cpp.s
@@ -515,7 +515,7 @@ triangle_tournant.s: triangle_tournant.cpp.s
 
 # target to generate assembly for a file
 triangle_tournant.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/triangle_tournant.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant.dir/triangle_tournant.cpp.s
 .PHONY : triangle_tournant.cpp.s
 
 triangle_tournant_matrice_cpu.o: triangle_tournant_matrice_cpu.cpp.o
@@ -524,7 +524,7 @@ triangle_tournant_matrice_cpu.o: triangle_tournant_matrice_cpu.cpp.o
 
 # target to build an object file
 triangle_tournant_matrice_cpu.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/triangle_tournant_matrice_cpu.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/triangle_tournant_matrice_cpu.cpp.o
 .PHONY : triangle_tournant_matrice_cpu.cpp.o
 
 triangle_tournant_matrice_cpu.i: triangle_tournant_matrice_cpu.cpp.i
@@ -533,7 +533,7 @@ triangle_tournant_matrice_cpu.i: triangle_tournant_matrice_cpu.cpp.i
 
 # target to preprocess a source file
 triangle_tournant_matrice_cpu.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/triangle_tournant_matrice_cpu.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/triangle_tournant_matrice_cpu.cpp.i
 .PHONY : triangle_tournant_matrice_cpu.cpp.i
 
 triangle_tournant_matrice_cpu.s: triangle_tournant_matrice_cpu.cpp.s
@@ -542,7 +542,7 @@ triangle_tournant_matrice_cpu.s: triangle_tournant_matrice_cpu.cpp.s
 
 # target to generate assembly for a file
 triangle_tournant_matrice_cpu.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/triangle_tournant_matrice_cpu.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/build.make TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/triangle_tournant_matrice_cpu.cpp.s
 .PHONY : triangle_tournant_matrice_cpu.cpp.s
 
 triangle_transformation.o: triangle_transformation.cpp.o
@@ -551,7 +551,7 @@ triangle_transformation.o: triangle_transformation.cpp.o
 
 # target to build an object file
 triangle_transformation.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/triangle_transformation.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/triangle_transformation.cpp.o
 .PHONY : triangle_transformation.cpp.o
 
 triangle_transformation.i: triangle_transformation.cpp.i
@@ -560,7 +560,7 @@ triangle_transformation.i: triangle_transformation.cpp.i
 
 # target to preprocess a source file
 triangle_transformation.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/triangle_transformation.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/triangle_transformation.cpp.i
 .PHONY : triangle_transformation.cpp.i
 
 triangle_transformation.s: triangle_transformation.cpp.s
@@ -569,7 +569,7 @@ triangle_transformation.s: triangle_transformation.cpp.s
 
 # target to generate assembly for a file
 triangle_transformation.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/triangle_transformation.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_transformation.dir/build.make TP2/CMakeFiles/TP2_triangle_transformation.dir/triangle_transformation.cpp.s
 .PHONY : triangle_transformation.cpp.s
 
 # Help Target
@@ -635,6 +635,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/erwi/Documents/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

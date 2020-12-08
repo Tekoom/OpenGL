@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwi/Documents/GLImac-Template
+CMAKE_SOURCE_DIR = /home/erwann/Documents/OpenGL/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwi/Documents/GLImac-Template-build
+CMAKE_BINARY_DIR = /home/erwann/Documents/OpenGL/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/erwi/Documents/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles /home/erwi/Documents/GLImac-Template-build/TP1/CMakeFiles/progress.marks
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 0
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles /home/erwann/Documents/OpenGL/GLImac-Template-build/TP1/CMakeFiles/progress.marks
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/clean
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/erwi/Documents/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exercise6.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise6.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise6.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exercise6.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ TP1_exercise6: TP1/CMakeFiles/TP1_exercise6.dir/rule
 
 # fast build rule for target.
 TP1_exercise6/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/build
 .PHONY : TP1_exercise6/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exercise4.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise4.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise4.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exercise4.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ TP1_exercise4: TP1/CMakeFiles/TP1_exercise4.dir/rule
 
 # fast build rule for target.
 TP1_exercise4/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/build
 .PHONY : TP1_exercise4/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exercise5.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise5.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise5.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exercise5.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ TP1_exercise5: TP1/CMakeFiles/TP1_exercise5.dir/rule
 
 # fast build rule for target.
 TP1_exercise5/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/build
 .PHONY : TP1_exercise5/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exercise3.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise3.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise3.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exercise3.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ TP1_exercise3: TP1/CMakeFiles/TP1_exercise3.dir/rule
 
 # fast build rule for target.
 TP1_exercise3/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/build
 .PHONY : TP1_exercise3/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exercise2.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise2.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise2.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exercise2.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ TP1_exercise2: TP1/CMakeFiles/TP1_exercise2.dir/rule
 
 # fast build rule for target.
 TP1_exercise2/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/build
 .PHONY : TP1_exercise2/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exercise1.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise1.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise1.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exercise1.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ TP1_exercise1: TP1/CMakeFiles/TP1_exercise1.dir/rule
 
 # fast build rule for target.
 TP1_exercise1/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/build
 .PHONY : TP1_exercise1/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -212,7 +212,7 @@ TP1_SDLtemplate: TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 
 # fast build rule for target.
 TP1_SDLtemplate/fast:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
 .PHONY : TP1_SDLtemplate/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
@@ -221,7 +221,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -230,7 +230,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -239,7 +239,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 exercise1.o: exercise1.cpp.o
@@ -248,7 +248,7 @@ exercise1.o: exercise1.cpp.o
 
 # target to build an object file
 exercise1.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/exercise1.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/exercise1.cpp.o
 .PHONY : exercise1.cpp.o
 
 exercise1.i: exercise1.cpp.i
@@ -257,7 +257,7 @@ exercise1.i: exercise1.cpp.i
 
 # target to preprocess a source file
 exercise1.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/exercise1.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/exercise1.cpp.i
 .PHONY : exercise1.cpp.i
 
 exercise1.s: exercise1.cpp.s
@@ -266,7 +266,7 @@ exercise1.s: exercise1.cpp.s
 
 # target to generate assembly for a file
 exercise1.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/exercise1.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise1.dir/build.make TP1/CMakeFiles/TP1_exercise1.dir/exercise1.cpp.s
 .PHONY : exercise1.cpp.s
 
 exercise2.o: exercise2.cpp.o
@@ -275,7 +275,7 @@ exercise2.o: exercise2.cpp.o
 
 # target to build an object file
 exercise2.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/exercise2.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/exercise2.cpp.o
 .PHONY : exercise2.cpp.o
 
 exercise2.i: exercise2.cpp.i
@@ -284,7 +284,7 @@ exercise2.i: exercise2.cpp.i
 
 # target to preprocess a source file
 exercise2.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/exercise2.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/exercise2.cpp.i
 .PHONY : exercise2.cpp.i
 
 exercise2.s: exercise2.cpp.s
@@ -293,7 +293,7 @@ exercise2.s: exercise2.cpp.s
 
 # target to generate assembly for a file
 exercise2.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/exercise2.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise2.dir/build.make TP1/CMakeFiles/TP1_exercise2.dir/exercise2.cpp.s
 .PHONY : exercise2.cpp.s
 
 exercise3.o: exercise3.cpp.o
@@ -302,7 +302,7 @@ exercise3.o: exercise3.cpp.o
 
 # target to build an object file
 exercise3.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/exercise3.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/exercise3.cpp.o
 .PHONY : exercise3.cpp.o
 
 exercise3.i: exercise3.cpp.i
@@ -311,7 +311,7 @@ exercise3.i: exercise3.cpp.i
 
 # target to preprocess a source file
 exercise3.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/exercise3.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/exercise3.cpp.i
 .PHONY : exercise3.cpp.i
 
 exercise3.s: exercise3.cpp.s
@@ -320,7 +320,7 @@ exercise3.s: exercise3.cpp.s
 
 # target to generate assembly for a file
 exercise3.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/exercise3.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise3.dir/build.make TP1/CMakeFiles/TP1_exercise3.dir/exercise3.cpp.s
 .PHONY : exercise3.cpp.s
 
 exercise4.o: exercise4.cpp.o
@@ -329,7 +329,7 @@ exercise4.o: exercise4.cpp.o
 
 # target to build an object file
 exercise4.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/exercise4.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/exercise4.cpp.o
 .PHONY : exercise4.cpp.o
 
 exercise4.i: exercise4.cpp.i
@@ -338,7 +338,7 @@ exercise4.i: exercise4.cpp.i
 
 # target to preprocess a source file
 exercise4.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/exercise4.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/exercise4.cpp.i
 .PHONY : exercise4.cpp.i
 
 exercise4.s: exercise4.cpp.s
@@ -347,7 +347,7 @@ exercise4.s: exercise4.cpp.s
 
 # target to generate assembly for a file
 exercise4.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/exercise4.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise4.dir/build.make TP1/CMakeFiles/TP1_exercise4.dir/exercise4.cpp.s
 .PHONY : exercise4.cpp.s
 
 exercise5.o: exercise5.cpp.o
@@ -356,7 +356,7 @@ exercise5.o: exercise5.cpp.o
 
 # target to build an object file
 exercise5.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/exercise5.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/exercise5.cpp.o
 .PHONY : exercise5.cpp.o
 
 exercise5.i: exercise5.cpp.i
@@ -365,7 +365,7 @@ exercise5.i: exercise5.cpp.i
 
 # target to preprocess a source file
 exercise5.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/exercise5.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/exercise5.cpp.i
 .PHONY : exercise5.cpp.i
 
 exercise5.s: exercise5.cpp.s
@@ -374,7 +374,7 @@ exercise5.s: exercise5.cpp.s
 
 # target to generate assembly for a file
 exercise5.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/exercise5.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise5.dir/build.make TP1/CMakeFiles/TP1_exercise5.dir/exercise5.cpp.s
 .PHONY : exercise5.cpp.s
 
 exercise6.o: exercise6.cpp.o
@@ -383,7 +383,7 @@ exercise6.o: exercise6.cpp.o
 
 # target to build an object file
 exercise6.cpp.o:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/exercise6.cpp.o
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/exercise6.cpp.o
 .PHONY : exercise6.cpp.o
 
 exercise6.i: exercise6.cpp.i
@@ -392,7 +392,7 @@ exercise6.i: exercise6.cpp.i
 
 # target to preprocess a source file
 exercise6.cpp.i:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/exercise6.cpp.i
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/exercise6.cpp.i
 .PHONY : exercise6.cpp.i
 
 exercise6.s: exercise6.cpp.s
@@ -401,7 +401,7 @@ exercise6.s: exercise6.cpp.s
 
 # target to generate assembly for a file
 exercise6.cpp.s:
-	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/exercise6.cpp.s
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exercise6.dir/build.make TP1/CMakeFiles/TP1_exercise6.dir/exercise6.cpp.s
 .PHONY : exercise6.cpp.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/erwi/Documents/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
