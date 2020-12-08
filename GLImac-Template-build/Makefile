@@ -371,6 +371,45 @@ TP3_sphere/fast:
 .PHONY : TP3_sphere/fast
 
 #=============================================================================
+# Target rules for targets named TP3_pls_shaders
+
+# Build rule for target.
+TP3_pls_shaders: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_pls_shaders
+.PHONY : TP3_pls_shaders
+
+# fast build rule for target.
+TP3_pls_shaders/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/build
+.PHONY : TP3_pls_shaders/fast
+
+#=============================================================================
+# Target rules for targets named TP3_terre
+
+# Build rule for target.
+TP3_terre: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_terre
+.PHONY : TP3_terre
+
+# fast build rule for target.
+TP3_terre/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/build
+.PHONY : TP3_terre/fast
+
+#=============================================================================
+# Target rules for targets named TP3_multi_texturing
+
+# Build rule for target.
+TP3_multi_texturing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP3_multi_texturing
+.PHONY : TP3_multi_texturing
+
+# fast build rule for target.
+TP3_multi_texturing/fast:
+	$(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/build
+.PHONY : TP3_multi_texturing/fast
+
+#=============================================================================
 # Target rules for targets named TP3_lune
 
 # Build rule for target.
@@ -424,6 +463,9 @@ help:
 	@echo "... TP2_triangle_tournant"
 	@echo "... TP2_SDLtemplate"
 	@echo "... TP3_sphere"
+	@echo "... TP3_pls_shaders"
+	@echo "... TP3_terre"
+	@echo "... TP3_multi_texturing"
 	@echo "... TP3_lune"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help

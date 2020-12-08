@@ -27,6 +27,9 @@
 /home/erwi/Documents/GLImac-Template-build/TP2/CMakeFiles/TP2_SDLtemplate.dir
 /home/erwi/Documents/GLImac-Template-build/TP3/CMakeFiles/rebuild_cache.dir
 /home/erwi/Documents/GLImac-Template-build/TP3/CMakeFiles/TP3_sphere.dir
+/home/erwi/Documents/GLImac-Template-build/TP3/CMakeFiles/TP3_pls_shaders.dir
+/home/erwi/Documents/GLImac-Template-build/TP3/CMakeFiles/TP3_terre.dir
+/home/erwi/Documents/GLImac-Template-build/TP3/CMakeFiles/TP3_multi_texturing.dir
 /home/erwi/Documents/GLImac-Template-build/TP3/CMakeFiles/edit_cache.dir
 /home/erwi/Documents/GLImac-Template-build/TP3/CMakeFiles/TP3_lune.dir
 /home/erwi/Documents/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir

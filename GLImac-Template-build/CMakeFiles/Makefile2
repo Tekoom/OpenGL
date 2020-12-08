@@ -152,6 +152,9 @@ TP2/clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
 
 # Recursive "all" directory target.
 TP3/all: TP3/CMakeFiles/TP3_sphere.dir/all
+TP3/all: TP3/CMakeFiles/TP3_pls_shaders.dir/all
+TP3/all: TP3/CMakeFiles/TP3_terre.dir/all
+TP3/all: TP3/CMakeFiles/TP3_multi_texturing.dir/all
 TP3/all: TP3/CMakeFiles/TP3_lune.dir/all
 
 .PHONY : TP3/all
@@ -163,6 +166,9 @@ TP3/preinstall:
 
 # Recursive "clean" directory target.
 TP3/clean: TP3/CMakeFiles/TP3_sphere.dir/clean
+TP3/clean: TP3/CMakeFiles/TP3_pls_shaders.dir/clean
+TP3/clean: TP3/CMakeFiles/TP3_terre.dir/clean
+TP3/clean: TP3/CMakeFiles/TP3_multi_texturing.dir/clean
 TP3/clean: TP3/CMakeFiles/TP3_lune.dir/clean
 
 .PHONY : TP3/clean
@@ -210,7 +216,7 @@ glimac/clean: glimac/CMakeFiles/glimac.dir/clean
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=43,44,45,46,47,48,49,50,51 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
@@ -723,7 +729,7 @@ TP2/CMakeFiles/TP2_SDLtemplate.dir/clean:
 TP3/CMakeFiles/TP3_sphere.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP3/CMakeFiles/TP3_sphere.dir/build.make TP3/CMakeFiles/TP3_sphere.dir/depend
 	$(MAKE) -f TP3/CMakeFiles/TP3_sphere.dir/build.make TP3/CMakeFiles/TP3_sphere.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=39,40 "Built target TP3_sphere"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=43,44 "Built target TP3_sphere"
 .PHONY : TP3/CMakeFiles/TP3_sphere.dir/all
 
 # Build rule for subdir invocation for target.
@@ -742,6 +748,87 @@ TP3_sphere: TP3/CMakeFiles/TP3_sphere.dir/rule
 TP3/CMakeFiles/TP3_sphere.dir/clean:
 	$(MAKE) -f TP3/CMakeFiles/TP3_sphere.dir/build.make TP3/CMakeFiles/TP3_sphere.dir/clean
 .PHONY : TP3/CMakeFiles/TP3_sphere.dir/clean
+
+#=============================================================================
+# Target rules for target TP3/CMakeFiles/TP3_pls_shaders.dir
+
+# All Build rule for target.
+TP3/CMakeFiles/TP3_pls_shaders.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/depend
+	$(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=41,42 "Built target TP3_pls_shaders"
+.PHONY : TP3/CMakeFiles/TP3_pls_shaders.dir/all
+
+# Build rule for subdir invocation for target.
+TP3/CMakeFiles/TP3_pls_shaders.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_pls_shaders.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP3/CMakeFiles/TP3_pls_shaders.dir/rule
+
+# Convenience name for target.
+TP3_pls_shaders: TP3/CMakeFiles/TP3_pls_shaders.dir/rule
+
+.PHONY : TP3_pls_shaders
+
+# clean rule for target.
+TP3/CMakeFiles/TP3_pls_shaders.dir/clean:
+	$(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/clean
+.PHONY : TP3/CMakeFiles/TP3_pls_shaders.dir/clean
+
+#=============================================================================
+# Target rules for target TP3/CMakeFiles/TP3_terre.dir
+
+# All Build rule for target.
+TP3/CMakeFiles/TP3_terre.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/depend
+	$(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=45,46 "Built target TP3_terre"
+.PHONY : TP3/CMakeFiles/TP3_terre.dir/all
+
+# Build rule for subdir invocation for target.
+TP3/CMakeFiles/TP3_terre.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_terre.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP3/CMakeFiles/TP3_terre.dir/rule
+
+# Convenience name for target.
+TP3_terre: TP3/CMakeFiles/TP3_terre.dir/rule
+
+.PHONY : TP3_terre
+
+# clean rule for target.
+TP3/CMakeFiles/TP3_terre.dir/clean:
+	$(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/clean
+.PHONY : TP3/CMakeFiles/TP3_terre.dir/clean
+
+#=============================================================================
+# Target rules for target TP3/CMakeFiles/TP3_multi_texturing.dir
+
+# All Build rule for target.
+TP3/CMakeFiles/TP3_multi_texturing.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/depend
+	$(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=39,40 "Built target TP3_multi_texturing"
+.PHONY : TP3/CMakeFiles/TP3_multi_texturing.dir/all
+
+# Build rule for subdir invocation for target.
+TP3/CMakeFiles/TP3_multi_texturing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_multi_texturing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwi/Documents/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP3/CMakeFiles/TP3_multi_texturing.dir/rule
+
+# Convenience name for target.
+TP3_multi_texturing: TP3/CMakeFiles/TP3_multi_texturing.dir/rule
+
+.PHONY : TP3_multi_texturing
+
+# clean rule for target.
+TP3/CMakeFiles/TP3_multi_texturing.dir/clean:
+	$(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/clean
+.PHONY : TP3/CMakeFiles/TP3_multi_texturing.dir/clean
 
 #=============================================================================
 # Target rules for target TP3/CMakeFiles/TP3_lune.dir
@@ -777,7 +864,7 @@ TP3/CMakeFiles/TP3_lune.dir/clean:
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=41,42 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwi/Documents/GLImac-Template-build/CMakeFiles --progress-num=47,48 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.

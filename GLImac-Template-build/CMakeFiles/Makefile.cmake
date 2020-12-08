@@ -84,6 +84,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP2/CMakeFiles/TP2_triangle_tournant.dir/DependInfo.cmake"
   "TP2/CMakeFiles/TP2_SDLtemplate.dir/DependInfo.cmake"
   "TP3/CMakeFiles/TP3_sphere.dir/DependInfo.cmake"
+  "TP3/CMakeFiles/TP3_pls_shaders.dir/DependInfo.cmake"
+  "TP3/CMakeFiles/TP3_terre.dir/DependInfo.cmake"
+  "TP3/CMakeFiles/TP3_multi_texturing.dir/DependInfo.cmake"
   "TP3/CMakeFiles/TP3_lune.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )

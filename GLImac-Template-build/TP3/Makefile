@@ -126,6 +126,51 @@ TP3_sphere/fast:
 .PHONY : TP3_sphere/fast
 
 # Convenience name for target.
+TP3/CMakeFiles/TP3_pls_shaders.dir/rule:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_pls_shaders.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_pls_shaders.dir/rule
+
+# Convenience name for target.
+TP3_pls_shaders: TP3/CMakeFiles/TP3_pls_shaders.dir/rule
+
+.PHONY : TP3_pls_shaders
+
+# fast build rule for target.
+TP3_pls_shaders/fast:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/build
+.PHONY : TP3_pls_shaders/fast
+
+# Convenience name for target.
+TP3/CMakeFiles/TP3_terre.dir/rule:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_terre.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_terre.dir/rule
+
+# Convenience name for target.
+TP3_terre: TP3/CMakeFiles/TP3_terre.dir/rule
+
+.PHONY : TP3_terre
+
+# fast build rule for target.
+TP3_terre/fast:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/build
+.PHONY : TP3_terre/fast
+
+# Convenience name for target.
+TP3/CMakeFiles/TP3_multi_texturing.dir/rule:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_multi_texturing.dir/rule
+.PHONY : TP3/CMakeFiles/TP3_multi_texturing.dir/rule
+
+# Convenience name for target.
+TP3_multi_texturing: TP3/CMakeFiles/TP3_multi_texturing.dir/rule
+
+.PHONY : TP3_multi_texturing
+
+# fast build rule for target.
+TP3_multi_texturing/fast:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/build
+.PHONY : TP3_multi_texturing/fast
+
+# Convenience name for target.
 TP3/CMakeFiles/TP3_lune.dir/rule:
 	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_lune.dir/rule
 .PHONY : TP3/CMakeFiles/TP3_lune.dir/rule
@@ -167,6 +212,60 @@ lune.cpp.s:
 	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_lune.dir/build.make TP3/CMakeFiles/TP3_lune.dir/lune.cpp.s
 .PHONY : lune.cpp.s
 
+multi_texturing.o: multi_texturing.cpp.o
+
+.PHONY : multi_texturing.o
+
+# target to build an object file
+multi_texturing.cpp.o:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/multi_texturing.cpp.o
+.PHONY : multi_texturing.cpp.o
+
+multi_texturing.i: multi_texturing.cpp.i
+
+.PHONY : multi_texturing.i
+
+# target to preprocess a source file
+multi_texturing.cpp.i:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/multi_texturing.cpp.i
+.PHONY : multi_texturing.cpp.i
+
+multi_texturing.s: multi_texturing.cpp.s
+
+.PHONY : multi_texturing.s
+
+# target to generate assembly for a file
+multi_texturing.cpp.s:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_multi_texturing.dir/build.make TP3/CMakeFiles/TP3_multi_texturing.dir/multi_texturing.cpp.s
+.PHONY : multi_texturing.cpp.s
+
+pls_shaders.o: pls_shaders.cpp.o
+
+.PHONY : pls_shaders.o
+
+# target to build an object file
+pls_shaders.cpp.o:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/pls_shaders.cpp.o
+.PHONY : pls_shaders.cpp.o
+
+pls_shaders.i: pls_shaders.cpp.i
+
+.PHONY : pls_shaders.i
+
+# target to preprocess a source file
+pls_shaders.cpp.i:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/pls_shaders.cpp.i
+.PHONY : pls_shaders.cpp.i
+
+pls_shaders.s: pls_shaders.cpp.s
+
+.PHONY : pls_shaders.s
+
+# target to generate assembly for a file
+pls_shaders.cpp.s:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_pls_shaders.dir/build.make TP3/CMakeFiles/TP3_pls_shaders.dir/pls_shaders.cpp.s
+.PHONY : pls_shaders.cpp.s
+
 sphere.o: sphere.cpp.o
 
 .PHONY : sphere.o
@@ -194,6 +293,33 @@ sphere.cpp.s:
 	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_sphere.dir/build.make TP3/CMakeFiles/TP3_sphere.dir/sphere.cpp.s
 .PHONY : sphere.cpp.s
 
+terre.o: terre.cpp.o
+
+.PHONY : terre.o
+
+# target to build an object file
+terre.cpp.o:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/terre.cpp.o
+.PHONY : terre.cpp.o
+
+terre.i: terre.cpp.i
+
+.PHONY : terre.i
+
+# target to preprocess a source file
+terre.cpp.i:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/terre.cpp.i
+.PHONY : terre.cpp.i
+
+terre.s: terre.cpp.s
+
+.PHONY : terre.s
+
+# target to generate assembly for a file
+terre.cpp.s:
+	cd /home/erwi/Documents/GLImac-Template-build && $(MAKE) -f TP3/CMakeFiles/TP3_terre.dir/build.make TP3/CMakeFiles/TP3_terre.dir/terre.cpp.s
+.PHONY : terre.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,14 +328,26 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... TP3_sphere"
+	@echo "... TP3_pls_shaders"
+	@echo "... TP3_terre"
+	@echo "... TP3_multi_texturing"
 	@echo "... edit_cache"
 	@echo "... TP3_lune"
 	@echo "... lune.o"
 	@echo "... lune.i"
 	@echo "... lune.s"
+	@echo "... multi_texturing.o"
+	@echo "... multi_texturing.i"
+	@echo "... multi_texturing.s"
+	@echo "... pls_shaders.o"
+	@echo "... pls_shaders.i"
+	@echo "... pls_shaders.s"
 	@echo "... sphere.o"
 	@echo "... sphere.i"
 	@echo "... sphere.s"
+	@echo "... terre.o"
+	@echo "... terre.i"
+	@echo "... terre.s"
 .PHONY : help
 
 
