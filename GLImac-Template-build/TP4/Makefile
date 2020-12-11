@@ -125,6 +125,48 @@ TP4_trackball/fast:
 	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_trackball.dir/build.make TP4/CMakeFiles/TP4_trackball.dir/build
 .PHONY : TP4_trackball/fast
 
+# Convenience name for target.
+TP4/CMakeFiles/TP4_freeflyCamera.dir/rule:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_freeflyCamera.dir/rule
+.PHONY : TP4/CMakeFiles/TP4_freeflyCamera.dir/rule
+
+# Convenience name for target.
+TP4_freeflyCamera: TP4/CMakeFiles/TP4_freeflyCamera.dir/rule
+
+.PHONY : TP4_freeflyCamera
+
+# fast build rule for target.
+TP4_freeflyCamera/fast:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_freeflyCamera.dir/build.make TP4/CMakeFiles/TP4_freeflyCamera.dir/build
+.PHONY : TP4_freeflyCamera/fast
+
+freeflyCamera.o: freeflyCamera.cpp.o
+
+.PHONY : freeflyCamera.o
+
+# target to build an object file
+freeflyCamera.cpp.o:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_freeflyCamera.dir/build.make TP4/CMakeFiles/TP4_freeflyCamera.dir/freeflyCamera.cpp.o
+.PHONY : freeflyCamera.cpp.o
+
+freeflyCamera.i: freeflyCamera.cpp.i
+
+.PHONY : freeflyCamera.i
+
+# target to preprocess a source file
+freeflyCamera.cpp.i:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_freeflyCamera.dir/build.make TP4/CMakeFiles/TP4_freeflyCamera.dir/freeflyCamera.cpp.i
+.PHONY : freeflyCamera.cpp.i
+
+freeflyCamera.s: freeflyCamera.cpp.s
+
+.PHONY : freeflyCamera.s
+
+# target to generate assembly for a file
+freeflyCamera.cpp.s:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f TP4/CMakeFiles/TP4_freeflyCamera.dir/build.make TP4/CMakeFiles/TP4_freeflyCamera.dir/freeflyCamera.cpp.s
+.PHONY : freeflyCamera.cpp.s
+
 trackball.o: trackball.cpp.o
 
 .PHONY : trackball.o
@@ -161,6 +203,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TP4_trackball"
+	@echo "... TP4_freeflyCamera"
+	@echo "... freeflyCamera.o"
+	@echo "... freeflyCamera.i"
+	@echo "... freeflyCamera.s"
 	@echo "... trackball.o"
 	@echo "... trackball.i"
 	@echo "... trackball.s"

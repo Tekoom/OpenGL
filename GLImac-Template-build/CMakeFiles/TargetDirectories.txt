@@ -35,6 +35,11 @@
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP4/CMakeFiles/rebuild_cache.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP4/CMakeFiles/edit_cache.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP4/CMakeFiles/TP4_trackball.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TP4/CMakeFiles/TP4_freeflyCamera.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/CMakeFiles/rebuild_cache.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/CMakeFiles/edit_cache.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/CMakeFiles/TP5_pointLight.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/CMakeFiles/TP5_directionalLight.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/edit_cache.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir

@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP2/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP3/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP4/CMakeLists.txt"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/TP5/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP_template/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
@@ -61,6 +62,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "TP2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TP5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP_template/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -91,5 +93,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP3/CMakeFiles/TP3_multi_texturing.dir/DependInfo.cmake"
   "TP3/CMakeFiles/TP3_lune.dir/DependInfo.cmake"
   "TP4/CMakeFiles/TP4_trackball.dir/DependInfo.cmake"
+  "TP4/CMakeFiles/TP4_freeflyCamera.dir/DependInfo.cmake"
+  "TP5/CMakeFiles/TP5_pointLight.dir/DependInfo.cmake"
+  "TP5/CMakeFiles/TP5_directionalLight.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )

@@ -44,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/erwann/Documents/OpenGL/GLImac-Template-build/TP2/cmake_install.cmake")
   include("/home/erwann/Documents/OpenGL/GLImac-Template-build/TP3/cmake_install.cmake")
   include("/home/erwann/Documents/OpenGL/GLImac-Template-build/TP4/cmake_install.cmake")
+  include("/home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/cmake_install.cmake")
   include("/home/erwann/Documents/OpenGL/GLImac-Template-build/TP_template/cmake_install.cmake")
 
 endif()

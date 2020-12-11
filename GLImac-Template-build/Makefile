@@ -436,6 +436,45 @@ TP4_trackball/fast:
 .PHONY : TP4_trackball/fast
 
 #=============================================================================
+# Target rules for targets named TP4_freeflyCamera
+
+# Build rule for target.
+TP4_freeflyCamera: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP4_freeflyCamera
+.PHONY : TP4_freeflyCamera
+
+# fast build rule for target.
+TP4_freeflyCamera/fast:
+	$(MAKE) -f TP4/CMakeFiles/TP4_freeflyCamera.dir/build.make TP4/CMakeFiles/TP4_freeflyCamera.dir/build
+.PHONY : TP4_freeflyCamera/fast
+
+#=============================================================================
+# Target rules for targets named TP5_pointLight
+
+# Build rule for target.
+TP5_pointLight: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP5_pointLight
+.PHONY : TP5_pointLight
+
+# fast build rule for target.
+TP5_pointLight/fast:
+	$(MAKE) -f TP5/CMakeFiles/TP5_pointLight.dir/build.make TP5/CMakeFiles/TP5_pointLight.dir/build
+.PHONY : TP5_pointLight/fast
+
+#=============================================================================
+# Target rules for targets named TP5_directionalLight
+
+# Build rule for target.
+TP5_directionalLight: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP5_directionalLight
+.PHONY : TP5_directionalLight
+
+# fast build rule for target.
+TP5_directionalLight/fast:
+	$(MAKE) -f TP5/CMakeFiles/TP5_directionalLight.dir/build.make TP5/CMakeFiles/TP5_directionalLight.dir/build
+.PHONY : TP5_directionalLight/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -481,6 +520,9 @@ help:
 	@echo "... TP3_multi_texturing"
 	@echo "... TP3_lune"
 	@echo "... TP4_trackball"
+	@echo "... TP4_freeflyCamera"
+	@echo "... TP5_pointLight"
+	@echo "... TP5_directionalLight"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help
 

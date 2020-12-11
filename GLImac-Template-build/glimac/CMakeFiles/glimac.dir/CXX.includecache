@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/erwann/Documents/OpenGL/GLImac-Template/glimac/include/glimac/TrackballCamera.hpp
+/home/erwann/Documents/OpenGL/GLImac-Template/glimac/include/glimac/FreeflyCamera.hpp
 glimac/glm.hpp
 -
 
@@ -26,9 +26,9 @@ glm/gtc/random.hpp
 glm/gtc/random.hpp
 -
 
-/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/TrackballCamera.cpp
-glimac/TrackballCamera.hpp
-/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/glimac/TrackballCamera.hpp
+/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/FreeflyCamera.cpp
+glimac/FreeflyCamera.hpp
+/home/erwann/Documents/OpenGL/GLImac-Template/glimac/src/glimac/FreeflyCamera.hpp
 
 /home/erwann/Documents/OpenGL/GLImac-Template/third-party/include/glm/common.hpp
 detail/func_common.hpp
