@@ -40,6 +40,9 @@
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/CMakeFiles/edit_cache.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/CMakeFiles/TP5_pointLight.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP5/CMakeFiles/TP5_directionalLight.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TPAssimp/CMakeFiles/rebuild_cache.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TPAssimp/CMakeFiles/edit_cache.dir
+/home/erwann/Documents/OpenGL/GLImac-Template-build/TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/rebuild_cache.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/edit_cache.dir
 /home/erwann/Documents/OpenGL/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir

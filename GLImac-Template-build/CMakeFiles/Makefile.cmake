@@ -17,8 +17,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP3/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP4/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP5/CMakeLists.txt"
+  "/home/erwann/Documents/OpenGL/GLImac-Template/TPAssimp/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/TP_template/CMakeLists.txt"
   "/home/erwann/Documents/OpenGL/GLImac-Template/glimac/CMakeLists.txt"
+  "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.0/assimp-config-version.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.0/assimp-config.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.0/assimpTargets-release.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/assimp-5.0/assimpTargets.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -63,6 +68,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "TP3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP5/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TPAssimp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TP_template/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -96,5 +102,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "TP4/CMakeFiles/TP4_freeflyCamera.dir/DependInfo.cmake"
   "TP5/CMakeFiles/TP5_pointLight.dir/DependInfo.cmake"
   "TP5/CMakeFiles/TP5_directionalLight.dir/DependInfo.cmake"
+  "TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/DependInfo.cmake"
   "TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake"
   )

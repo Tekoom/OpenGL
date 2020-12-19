@@ -475,6 +475,19 @@ TP5_directionalLight/fast:
 .PHONY : TP5_directionalLight/fast
 
 #=============================================================================
+# Target rules for targets named TPAssimp_testAssimp
+
+# Build rule for target.
+TPAssimp_testAssimp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TPAssimp_testAssimp
+.PHONY : TPAssimp_testAssimp
+
+# fast build rule for target.
+TPAssimp_testAssimp/fast:
+	$(MAKE) -f TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/build.make TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/build
+.PHONY : TPAssimp_testAssimp/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -523,6 +536,7 @@ help:
 	@echo "... TP4_freeflyCamera"
 	@echo "... TP5_pointLight"
 	@echo "... TP5_directionalLight"
+	@echo "... TPAssimp_testAssimp"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help
 

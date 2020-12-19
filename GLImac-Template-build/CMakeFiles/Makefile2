@@ -59,6 +59,7 @@ all: TP2/all
 all: TP3/all
 all: TP4/all
 all: TP5/all
+all: TPAssimp/all
 all: TP_template/all
 
 .PHONY : all
@@ -70,6 +71,7 @@ preinstall: TP2/preinstall
 preinstall: TP3/preinstall
 preinstall: TP4/preinstall
 preinstall: TP5/preinstall
+preinstall: TPAssimp/preinstall
 preinstall: TP_template/preinstall
 
 .PHONY : preinstall
@@ -81,6 +83,7 @@ clean: TP2/clean
 clean: TP3/clean
 clean: TP4/clean
 clean: TP5/clean
+clean: TPAssimp/clean
 clean: TP_template/clean
 
 .PHONY : clean
@@ -220,6 +223,24 @@ TP5/clean: TP5/CMakeFiles/TP5_directionalLight.dir/clean
 .PHONY : TP5/clean
 
 #=============================================================================
+# Directory level rules for directory TPAssimp
+
+# Recursive "all" directory target.
+TPAssimp/all: TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/all
+
+.PHONY : TPAssimp/all
+
+# Recursive "preinstall" directory target.
+TPAssimp/preinstall:
+
+.PHONY : TPAssimp/preinstall
+
+# Recursive "clean" directory target.
+TPAssimp/clean: TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/clean
+
+.PHONY : TPAssimp/clean
+
+#=============================================================================
 # Directory level rules for directory TP_template
 
 # Recursive "all" directory target.
@@ -262,12 +283,12 @@ glimac/clean: glimac/CMakeFiles/glimac.dir/clean
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 glimac/CMakeFiles/glimac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
@@ -294,7 +315,7 @@ TP1/CMakeFiles/TP1_exercise6.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exercise6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exercise6.dir/rule
@@ -321,7 +342,7 @@ TP1/CMakeFiles/TP1_exercise4.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exercise4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exercise4.dir/rule
@@ -348,7 +369,7 @@ TP1/CMakeFiles/TP1_exercise5.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exercise5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exercise5.dir/rule
@@ -375,7 +396,7 @@ TP1/CMakeFiles/TP1_exercise3.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exercise3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exercise3.dir/rule
@@ -402,7 +423,7 @@ TP1/CMakeFiles/TP1_exercise2.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exercise2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exercise2.dir/rule
@@ -429,7 +450,7 @@ TP1/CMakeFiles/TP1_exercise1.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exercise1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exercise1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exercise1.dir/rule
@@ -456,7 +477,7 @@ TP1/CMakeFiles/TP1_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
@@ -483,7 +504,7 @@ TP2/CMakeFiles/TP2_triangle_transformation.dir/all: glimac/CMakeFiles/glimac.dir
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_triangle_transformation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_transformation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_triangle_transformation.dir/rule
@@ -510,7 +531,7 @@ TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/all: glimac/CMakeFiles/glim
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_triangle_tournant_matrice_cpu.dir/rule
@@ -537,7 +558,7 @@ TP2/CMakeFiles/TP2_triangle_particule.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_triangle_particule.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_particule.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_triangle_particule.dir/rule
@@ -564,7 +585,7 @@ TP2/CMakeFiles/TP2_templateDuku.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_templateDuku.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_templateDuku.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_templateDuku.dir/rule
@@ -591,7 +612,7 @@ TP2/CMakeFiles/TP2_textures.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_textures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_textures.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_textures.dir/rule
@@ -618,7 +639,7 @@ TP2/CMakeFiles/TP2_mandelbrot.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_mandelbrot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_mandelbrot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_mandelbrot.dir/rule
@@ -645,7 +666,7 @@ TP2/CMakeFiles/TP2_plusieurs_triangles.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_plusieurs_triangles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_plusieurs_triangles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_plusieurs_triangles.dir/rule
@@ -672,7 +693,7 @@ TP2/CMakeFiles/TP2_exo_2.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo_2.dir/rule
@@ -699,7 +720,7 @@ TP2/CMakeFiles/TP2_exo_1.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_exo_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_exo_1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_exo_1.dir/rule
@@ -726,7 +747,7 @@ TP2/CMakeFiles/TP2_triangle_tournant.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_triangle_tournant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_tournant.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_triangle_tournant.dir/rule
@@ -753,7 +774,7 @@ TP2/CMakeFiles/TP2_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
@@ -780,7 +801,7 @@ TP3/CMakeFiles/TP3_sphere.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_sphere.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_sphere.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_sphere.dir/rule
@@ -807,7 +828,7 @@ TP3/CMakeFiles/TP3_pls_shaders.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_pls_shaders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_pls_shaders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_pls_shaders.dir/rule
@@ -834,7 +855,7 @@ TP3/CMakeFiles/TP3_terre.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_terre.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_terre.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_terre.dir/rule
@@ -861,7 +882,7 @@ TP3/CMakeFiles/TP3_multi_texturing.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_multi_texturing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_multi_texturing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_multi_texturing.dir/rule
@@ -888,7 +909,7 @@ TP3/CMakeFiles/TP3_lune.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP3/CMakeFiles/TP3_lune.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP3/CMakeFiles/TP3_lune.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP3/CMakeFiles/TP3_lune.dir/rule
@@ -915,7 +936,7 @@ TP4/CMakeFiles/TP4_trackball.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP4/CMakeFiles/TP4_trackball.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_trackball.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP4/CMakeFiles/TP4_trackball.dir/rule
@@ -942,7 +963,7 @@ TP4/CMakeFiles/TP4_freeflyCamera.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP4/CMakeFiles/TP4_freeflyCamera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP4/CMakeFiles/TP4_freeflyCamera.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP4/CMakeFiles/TP4_freeflyCamera.dir/rule
@@ -969,7 +990,7 @@ TP5/CMakeFiles/TP5_pointLight.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP5/CMakeFiles/TP5_pointLight.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP5/CMakeFiles/TP5_pointLight.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP5/CMakeFiles/TP5_pointLight.dir/rule
@@ -996,7 +1017,7 @@ TP5/CMakeFiles/TP5_directionalLight.dir/all: glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 TP5/CMakeFiles/TP5_directionalLight.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP5/CMakeFiles/TP5_directionalLight.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP5/CMakeFiles/TP5_directionalLight.dir/rule
@@ -1012,18 +1033,45 @@ TP5/CMakeFiles/TP5_directionalLight.dir/clean:
 .PHONY : TP5/CMakeFiles/TP5_directionalLight.dir/clean
 
 #=============================================================================
+# Target rules for target TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir
+
+# All Build rule for target.
+TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/build.make TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/depend
+	$(MAKE) -f TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/build.make TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=55,56 "Built target TPAssimp_testAssimp"
+.PHONY : TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/all
+
+# Build rule for subdir invocation for target.
+TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
+	$(MAKE) -f CMakeFiles/Makefile2 TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
+.PHONY : TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/rule
+
+# Convenience name for target.
+TPAssimp_testAssimp: TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/rule
+
+.PHONY : TPAssimp_testAssimp
+
+# clean rule for target.
+TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/clean:
+	$(MAKE) -f TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/build.make TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/clean
+.PHONY : TPAssimp/CMakeFiles/TPAssimp_testAssimp.dir/clean
+
+#=============================================================================
 # Target rules for target TP_template/CMakeFiles/TP_template_SDLtemplate.dir
 
 # All Build rule for target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=55,56 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles --progress-num=57,58 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwann/Documents/OpenGL/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule

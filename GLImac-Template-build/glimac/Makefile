@@ -125,6 +125,33 @@ glimac/fast:
 	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
 .PHONY : glimac/fast
 
+include/glimac/Model.o: include/glimac/Model.cpp.o
+
+.PHONY : include/glimac/Model.o
+
+# target to build an object file
+include/glimac/Model.cpp.o:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/include/glimac/Model.cpp.o
+.PHONY : include/glimac/Model.cpp.o
+
+include/glimac/Model.i: include/glimac/Model.cpp.i
+
+.PHONY : include/glimac/Model.i
+
+# target to preprocess a source file
+include/glimac/Model.cpp.i:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/include/glimac/Model.cpp.i
+.PHONY : include/glimac/Model.cpp.i
+
+include/glimac/Model.s: include/glimac/Model.cpp.s
+
+.PHONY : include/glimac/Model.s
+
+# target to generate assembly for a file
+include/glimac/Model.cpp.s:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/include/glimac/Model.cpp.s
+.PHONY : include/glimac/Model.cpp.s
+
 src/Cone.o: src/Cone.cpp.o
 
 .PHONY : src/Cone.o
@@ -232,6 +259,33 @@ src/Image.s: src/Image.cpp.s
 src/Image.cpp.s:
 	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Image.cpp.s
 .PHONY : src/Image.cpp.s
+
+src/Mesh.o: src/Mesh.cpp.o
+
+.PHONY : src/Mesh.o
+
+# target to build an object file
+src/Mesh.cpp.o:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Mesh.cpp.o
+.PHONY : src/Mesh.cpp.o
+
+src/Mesh.i: src/Mesh.cpp.i
+
+.PHONY : src/Mesh.i
+
+# target to preprocess a source file
+src/Mesh.cpp.i:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Mesh.cpp.i
+.PHONY : src/Mesh.cpp.i
+
+src/Mesh.s: src/Mesh.cpp.s
+
+.PHONY : src/Mesh.s
+
+# target to generate assembly for a file
+src/Mesh.cpp.s:
+	cd /home/erwann/Documents/OpenGL/GLImac-Template-build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Mesh.cpp.s
+.PHONY : src/Mesh.cpp.s
 
 src/Program.o: src/Program.cpp.o
 
@@ -404,6 +458,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... glimac"
+	@echo "... include/glimac/Model.o"
+	@echo "... include/glimac/Model.i"
+	@echo "... include/glimac/Model.s"
 	@echo "... src/Cone.o"
 	@echo "... src/Cone.i"
 	@echo "... src/Cone.s"
@@ -416,6 +473,9 @@ help:
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"
+	@echo "... src/Mesh.o"
+	@echo "... src/Mesh.i"
+	@echo "... src/Mesh.s"
 	@echo "... src/Program.o"
 	@echo "... src/Program.i"
 	@echo "... src/Program.s"
